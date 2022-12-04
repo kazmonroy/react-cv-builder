@@ -1,0 +1,30 @@
+:root {
+  --main-color: #242424;
+  --second-color: rgba(255, 255, 255, 0.87);
+  --title: #525152;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--main-color);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
