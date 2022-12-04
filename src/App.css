@@ -106,10 +106,10 @@ button {
 }
 
 .Preview .about img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: fill;
   padding: 8px;
 }
 
@@ -263,4 +263,53 @@ li::before {
 .Preview .each-experience button:hover {
   border: 1px solid var(--title);
   color: var(--title);
+}
+
+@media (max-width: 1200px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .Preview {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  .Preview .fullname {
+    width: 90vw;
+  }
+
+  .Preview .Body {
+    gap: 24px;
+  }
+
+  .Preview .Left,
+  .Preview .Right {
+    padding: 0px;
+  }
+
+  .Preview .each-education p {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Preview .each-education span {
+    margin: 0;
+  }
+
+  .Preview .each-education button {
+    right: -20px;
+  }
+
+  .Preview .each-experience .exp-header {
+    flex-direction: column-reverse;
+  }
+
+  .Preview .each-experience .exp-header span {
+    margin: 0;
+  }
+
+  .Preview .each-experience button {
+    right: -20px;
+  }
 }

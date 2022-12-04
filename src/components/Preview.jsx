@@ -50,7 +50,7 @@ const Preview = ({
         <section className='Left'>
           <div className='about'>
             <img
-              src='https://avatars.githubusercontent.com/u/62848532?v=4'
+              src='https://raw.githubusercontent.com/gist/johan/1007813/raw/a25829510f049194b6404a8f98d22978e8744a6f/octocat.svg'
               alt=''
             />
             <h2>About</h2>
